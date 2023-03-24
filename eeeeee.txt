@@ -1,0 +1,99 @@
+    int x1 = 0;
+    int x2 = 0;
+    int x3 = 0;
+    int x4 = 0;
+    int x5 = 0;
+    int x6 = 0;
+    int x7 = 0;
+    int x8 = 0;
+    int i = 0;
+
+    /* Infinite Loop */
+    while ( 1 )
+    {
+        while(i != 255){
+           if (x1 == 0){
+        x1 = 1;
+    }else{
+        x1 = 0;
+        if (x2 == 0){
+            x2 = 1;
+        }else{
+            x2 = 0;
+            if (x3 == 0){
+                x3 = 1;
+            }else{
+                x3 = 0;
+                if(x4 == 0){
+                    x4 = 1;
+                }else{
+                    x4 = 0;
+                    if(x5 == 0){
+                        x5 = 1;
+                    }else{
+                        x5 = 0;
+                        if(x6 == 0){
+                            x6 = 1;
+                        }else{
+                            x6 = 0;
+                            if(x7 == 0){
+                                x7 = 1;
+                            }else{
+                                x7 = 0;
+                                if(x8 == 0){
+                                    x8 = 1;
+                                }else{
+                                    x8 = 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+           i++;
+           if(x1 == 1){
+           LED_On ( LED_D3 ) ;   
+           }else{
+               LED_Off ( LED_D3 ) ;
+           }
+           if(x2 == 1){
+           LED_On ( LED_D4 ) ;   
+           }else{
+               LED_Off ( LED_D4 ) ;
+           }
+           if(x3 == 1){
+           LED_On ( LED_D5 ) ;   
+           }else{
+               LED_Off ( LED_D5 ) ;
+           }
+           if(x4 == 1){
+           LED_On ( LED_D6 ) ;   
+           }else{
+               LED_Off ( LED_D6 ) ;
+           }
+           if(x5 == 1){
+           LED_On ( LED_D7 ) ;   
+           }else{
+               LED_Off ( LED_D7 ) ;
+           }
+           if(x6 == 1){
+           LED_On ( LED_D8 ) ;   
+           }else{
+               LED_Off ( LED_D8 ) ;
+           }
+           if(x7 == 1){
+           LED_On ( LED_D9 ) ;   
+           }else{
+               LED_Off ( LED_D9 ) ;
+           }
+           if(x8 == 1){
+           LED_On ( LED_D10 ) ;   
+           }else{
+               LED_Off ( LED_D10 ) ;
+           }
+    delay(500);
+    } ;
+    };
+}
