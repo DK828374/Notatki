@@ -1,0 +1,2 @@
+# Notatki
+Systemy_wbudowanr
